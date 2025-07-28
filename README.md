@@ -4,14 +4,17 @@ This project automates key scenarios on a demo e-commerce website using Robot Fr
 It focuses on core UI functionality such as user registration, login, product browsing, cart operations and contact form validation.  
 
 --- Project Structure ---
- │
- ├── UI/                    # UI automation suite
- │   ├── PageObjects/       # Locators for page elements 
- │   ├── Resources/         # Reusable keywords and variables
- │   ├── Tests/             # Test cases grouped by feature
- │   └── TestData/          # CSV test data (ex: invalid credentials) 
- └── README.md              # Project overview
- 
+
+robot-ecommerce-automation/
+│
+├── UI/                # UI automation suite
+│ ├── PageObjects/     # Locators for page elements
+│ ├── Resources/       # Reusable keywords and variables
+│ ├── Tests/           # Test cases grouped by feature
+│ └── TestData/        # CSV test data (e.g., invalid credentials)
+│
+└── README.md          # Project overview and instructions
+
 --- Features Covered ---
 - User Sign Up (valid/invalid data)
 - User Sign In (multiple scenario)/Out
