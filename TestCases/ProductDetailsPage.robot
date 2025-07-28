@@ -9,6 +9,7 @@ Suite Teardown     Close All The Browsers
 
 *** Test Cases ***
 Verify Product Browsing Features
+    [Tags]    regression    product
     ProductDetailsKeywords.Landing To Product Page    
     ProductDetailsKeywords.Product Search Funtionality    top    saree    jeans
     ProductDetailsKeywords.Verify Products Listing
