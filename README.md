@@ -5,15 +5,17 @@ It focuses on core UI functionality such as user registration, login, product br
 
 --- Project Structure ---
 
+--- Project Structure ---
+
 robot-ecommerce-automation/
 │
-├── UI/                # UI automation suite
-│ ├── PageObjects/     # Locators for page elements
-│ ├── Resources/       # Reusable keywords and variables
-│ ├── Tests/           # Test cases grouped by feature
-│ └── TestData/        # CSV test data (e.g., invalid credentials)
+├── UI/              # UI automation suite
+│   ├── PageObjects/  # Locators for page elements
+│   ├── Resources/    # Reusable keywords and variables
+│   ├── Tests/        # Test cases grouped by feature
+│   └── TestData/     # CSV test data (e.g., invalid credentials)
 │
-└── README.md          # Project overview and instructions
+└── README.md         # Project overview and instructions
 
 --- Features Covered ---
 - User Sign Up (valid/invalid data)
