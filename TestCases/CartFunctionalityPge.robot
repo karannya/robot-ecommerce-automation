@@ -10,6 +10,7 @@ Suite Teardown     Close All The Browsers
 
 *** Test Cases ***
 Validate Product Add and Remove Flow in Cart
+    [Tags]    regression    cart
     CartFunctionalityKeywords.Validate Cart Status
     CartFunctionalityKeywords.Add Product To Cart
     CartFunctionalityKeywords.Verify Product Quantity In Cart

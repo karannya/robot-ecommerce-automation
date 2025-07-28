@@ -11,6 +11,7 @@ Suite Teardown     Close All The Browsers
 
 *** Test Cases ***    
 Sign In And Sign Out With Valid Credentials
+     [Tags]    smoke    signin
      SignInKeywords.Goto User Signup/Login 
      SignInKeywords.Enter Sign In with credential 
      SignInKeywords.Sign Out         

@@ -13,6 +13,7 @@ Suite Teardown     Close All The Browsers
 
 *** Test Cases ***
 Create Account With Invalid Data
+    [Tags]    regression    signup_data_driven
     SignUpKeywords.Goto User SignUp/Login
     CredentialVerificationSignUpKeywords.Register User With Existing Email    
     ${dynamic_email}  Generate Dynamic Email Address 
